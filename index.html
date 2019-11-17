@@ -9,17 +9,78 @@
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
   <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="node_modules/">
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-primary">
-    <!-- Navbar content -->
-  </nav>
-  <div class="container">
-    <!-- Content here -->
-  </div>
+  <header class="header">
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand" href="index.html"><img class="img-max" src="logo-net.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Navbar content -->
+      </nav>
+    </div>
+  </header>
+  <section class="home-banner">
+    <div class="container home-banner-container">
+      <div class="d-flex align-items-center">
+        <div class="banner-content">
+          <div class="media">
+            <div class="d-flex">
+              <img src="photo.jpg" alt="">
+            </div>
+            <div class="media-body">
+              <div class="personal-description">
+                <h6>Hello Everybody, i am</h6>
+                <h3>Łukasz Juroszek</h3>
+                <h4>Junior .Net Developer</h4>
+                <p>Some random text... Some random text.
+                  Some random text.
+                  Some random text.
+                  Some random text.
+                  Some random text.
+                  Some random text.</p>
+                <ul class="list basic-info">
+                  <li><a href="#"><i class="fas fa-calendar"></i> 31st December, 1993</a></li>
+                  <li><a href="#"><i class="fas fa-phone"></i> 44 000 000 000</a></li>
+                  <li><a href="#"><i class="fas fa-envelope"></i> test@test.test</a></li>
+                  <li><a href="#"><i class="fas fa-home"></i> Region </a></li>
+
+                <ul class="list personal-social">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
 </body>
+
 </html>
