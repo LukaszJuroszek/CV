@@ -1,0 +1,24 @@
+{
+  "name": "cv_lukasz",
+  "version": "1.0.0",
+  "description": "A sample cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "sass --watch index.scss index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaszJuroszek/CV.git"
+  },
+  "author": "Łukasz Juroszek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaszJuroszek/CV/issues"
+  },
+  "homepage": "https://github.com/LukaszJuroszek/CV#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
