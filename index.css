@@ -102,7 +102,7 @@ body {
   font-size: 16px;
 }
 
-.home-banner {
+.home-banner-area {
   position: relative;
   z-index: 1;
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
@@ -110,7 +110,7 @@ body {
   background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   margin-bottom: 200px;
 }
-.home-banner .home-banner-container {
+.home-banner-area .home-banner-container {
   bottom: -130px;
   min-height: 700px;
   border-radius: 20px;
@@ -119,10 +119,10 @@ body {
   padding: 30px;
   box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
 }
-.home-banner .home-banner-container .banner-content .media .d-flex {
-  padding-right: 125px;
+.home-banner-area .home-banner-container .banner-content .media .d-flex {
+  padding-right: 100px;
 }
-.home-banner .banner-content {
+.home-banner-area .banner-content {
   margin: auto;
 }
 
@@ -277,6 +277,13 @@ body {
 }
 .tabs-inner .tab-content .tab-pane .list li:last-child {
   margin-bottom: 0px;
+}
+
+@media (max-width: 575px) {
+  .personal-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

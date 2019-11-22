@@ -103,7 +103,7 @@ body {
   }
 }
 
-.home-banner {
+.home-banner-area {
   position: relative;
   z-index: 1;
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
@@ -120,7 +120,7 @@ body {
     padding: 30px;
     box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
     .banner-content .media .d-flex {
-      padding-right: 125px;
+      padding-right: 100px;
     }
   }
   .banner-content {
@@ -301,5 +301,11 @@ body {
         margin-bottom: 0px;
       }
     }
+  }
+}
+@media (max-width: 575px) {
+  .personal-area {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
